@@ -21,7 +21,7 @@ def new_text(string):  # function which unions correct text and sentence that co
     return new_text
 
 
-def calculate_whitespace(string):  # function that calculate number of whitespace
+def calculate_whitespace():  # function that calculate number of whitespace
     d = 0  # calculate number of whitespace
     for i in new_text(string):
         if i.isspace():
@@ -40,4 +40,4 @@ string = """homEwork:
 # print(last_word(string))
 # print(text_correct(string))
 print(new_text(string))
-print(calculate_whitespace(string))
+print(calculate_whitespace())
